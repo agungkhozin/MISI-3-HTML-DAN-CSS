@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chill - login</title>
+    <link
+      rel="shortcut icon"
+      href="./images/logo/movie-open.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body class="loginPage">
+    <main class="container">
+      <div class="topContainer">
+        <img
+          class="chillLogo"
+          src="./images/logo/chill-logo.png"
+          alt="chill-logo"
+        />
+        <h3 class="title">Masuk</h3>
+        <p>Selamat Datang Kembali</p>
+      </div>
+
+      <form class="formLogin">
+        <div class="formGroup">
+          <label class="formLabel" for="Username">Username</label>
+          <input
+            class="formInput"
+            type="text"
+            placeholder="Masukkan Username"
+            name="Username"
+            id="Username"
+          />
+        </div>
+        <div class="formGroup">
+          <label class="formLabel" for="password">Kata Sandi</label>
+          <div class="passwordContainer">
+            <input
+              class="formInput"
+              type="password"
+              placeholder="Masukkan Kata sandi"
+              name="password"
+              id="password"
+            />
+            <img
+              class="togglePasword"
+              src="./images/logo/eye-off.png"
+              alt="eye-off"
+            />
+          </div>
+        </div>
+        <div class="additionalInfo">
+          <p>
+            Belum Punya Akun? <a class="link" href="./register.html">Daftar</a>
+          </p>
+          <a class="link" href="#">Lupa Kata Sandi?</a>
+        </div>
+
+        <button class="button" type="submit">Masuk</button>
+        <p class="wordSeparator">Atau</p>
+        <button class="button buttonGoogle" type="button">
+          <img
+            class="buttonIcon"
+            src="./images/logo/Google-Icon.png"
+            alt="Google-Icon"
+          />
+          <span> Masuk Dengan Google </span>
+        </button>
+      </form>
+    </main>
+  </body>
+</html>

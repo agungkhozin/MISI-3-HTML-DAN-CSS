@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.loginPage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/backround/login.jpg);
+  background-position: center;
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.84);
+  border-radius: 8px;
+  min-width: 306px;
+  padding: 24px;
+}
+
+.chillLogo {
+  width: 94px;
+  height: 24px;
+  margin-bottom: 20px;
+}
+
+.topContainer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  margin-bottom: 4px;
+  margin-top: 8px;
+}
+
+.formLogin {
+  margin-top: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 20px;
+}
+
+.formLabel {
+  color: white;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
+.formInput {
+  background-color: transparent;
+  padding: 8px 12px;
+  border: 0.58px solid #e7e3fc3b;
+  border-radius: 12px;
+  color: #c1c2c4;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 140%;
+  letter-spacing: 0.12px;
+}
+.passwordContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 0px;
+}
+.togglePasword {
+  color: #9d9ea1;
+  font-size: 10px;
+  position: absolute;
+  top: 4px;
+  right: 12px;
+  cursor: pointer;
+}
+
+.additionalInfo {
+  display: flex;
+  justify-content: space-between;
+  color: #c1c2c4;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.link {
+  cursor: pointer;
+  color: white;
+}
+
+.link:link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.button {
+  width: 100%;
+  padding: 8px 12px;
+  background-color: transparent;
+  border: 0.58px solid #e7e3fc3b;
+  border-radius: 14px;
+  color: white;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #3d4142;
+}
+
+.wordSeparator {
+  font-size: 10px;
+  color: #9d9ea1;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin: 4px 0;
+}
+
+.buttonGoogle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.buttonIcon {
+  width: 12px;
+  height: 12px;
+}
